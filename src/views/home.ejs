@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+    <div class="m-5">
+            <nav class="navbar navbar-dark mb-2 d-flex flex-column justify-content-center bg-warning" style="height: 50px">
+                    <a class="navbar-brand " href="#">Opdemy</a>
+            </nav>
+        <div class="row d-flex animated slideInDown justify-content-center">
+                <video width="900" height="500" controls>
+                        <source src="data:video/webm;base64,<%= video %>" type="video/mp4">
+                </video>
+        </div>
+    </div>
+    <script>
+    </script>
+<%- include("partials/footer.ejs") %>
